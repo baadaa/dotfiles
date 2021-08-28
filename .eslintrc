@@ -1,0 +1,26 @@
+{
+  "extends": [
+    "wesbos",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:import/typescript"
+  ],
+  "rules": {
+    "react/prop-types": 0,
+    "react/sort-comp": 1,
+    "react/jsx-props-no-spreading": 0,
+    "import/export": 0,
+    "no-shadow":1,
+    "react/destructuring-assignment": 1,
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".tsx"] }]
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"],
+        "paths": ["node_modules", "src/"],
+        "moduleDirectory": ["node_modules", "src/"]
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "workbench.colorTheme": "Night Owl",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontSize": 15,
+  "editor.lineHeight": 20,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "editor.colorDecorators": false,
+  "editor.insertSpaces": true,
+  "editor.cursorWidth": 10,
+  "editor.cursorBlinking": "solid",
+  "editor.detectIndentation": false,
+  "editor.renderWhitespace": "all",
+  "html.autoClosingTags": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.fontSize": 15,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "todohighlight.keywords": ["NOTE:"],
+  "breadcrumbs.enabled": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "beautify.language": {
+    "html": ["html", "php", "erb"],
+    "css": [],
+    "js": []
+  },
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false
+  },
+  "[yaml]": {
+    "editor.formatOnSave": false
+  },
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "400",
+  "terminal.integrated.fontWeightBold": "800",
+  "workbench.fontAliasing": "antialiased",
+  "debug.console.fontFamily": "Fira Code",
+  "debug.console.fontSize": 15,
+  "terminal.external.osxExec": "iterm.app",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "eslint.alwaysShowStatus": true,
+  "beautify.config": "",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.linkedEditings": true, 
+  "liveServer.settings.donotVerifyTags": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "auto-rename-tag.activationOnLanguage": [
+    "*"
+  ],
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.find.cursorMoveOnType": false
+}

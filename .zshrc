@@ -26,7 +26,9 @@ alias zs="source ~/.zshrc"
 alias cd..='cd ../'
 
 # Add more details when listing files and directories
-alias ll='ls -FGlAhp'
+# - I'm using gls` instead of `ls` to use `--group-directories-first` option on a Mac
+# - Install `coreutils` first:: `brew install coreutils`
+alias ll='gls -FGlAhp --group-directories-first --color'
 
 # zip recursively from the current folder without DS_Store files
 zz() {

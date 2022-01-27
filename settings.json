@@ -9,6 +9,8 @@
   "editor.colorDecorators": false,
   "editor.insertSpaces": true,
   "editor.cursorWidth": 10,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs":"active",
   "editor.cursorBlinking": "solid",
   "editor.detectIndentation": false,
   "editor.renderWhitespace": "all",

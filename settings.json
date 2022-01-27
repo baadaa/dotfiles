@@ -1,6 +1,6 @@
 {
   "workbench.colorTheme": "Night Owl",
-  "editor.fontFamily": "Fira Code",
+  "editor.fontFamily": "'Fira Code', monospace",
   "editor.fontSize": 15,
   "editor.lineHeight": 20,
   "editor.tabSize": 2,
@@ -42,13 +42,14 @@
   "editor.fontWeight": "400",
   "terminal.integrated.fontWeightBold": "800",
   "workbench.fontAliasing": "antialiased",
-  "debug.console.fontFamily": "Fira Code",
+  "debug.console.fontFamily": "'Fira Code', monospace",
   "debug.console.fontSize": 15,
   "terminal.external.osxExec": "iterm.app",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.codeActionsOnSave": {
-    "source.fixAll": true
+    "source.fixAll.eslint": true
   },
+  "eslint.validate": ["javascript"],
   "eslint.alwaysShowStatus": true,
   "beautify.config": "",
   "[html]": {
@@ -61,5 +62,7 @@
     "*"
   ],
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "editor.find.cursorMoveOnType": false
+  "editor.find.cursorMoveOnType": false,
+  "workbench.editor.splitInGroupLayout": "vertical",
+  "workbench.editor.splitOnDragAndDrop": false
 }

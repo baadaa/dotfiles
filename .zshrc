@@ -25,6 +25,9 @@ alias zs="source ~/.zshrc"
 # Allow ommitted space after CD command
 alias cd..='cd ../'
 
+# Tailscale CLI -- TODO: uncomment after installing Tailscale 
+# alias tailscale="/Applications/Tailscale.app/Contents/MacOS/Tailscale"
+
 # Add more details when listing files and directories
 # - I'm using gls` instead of `ls` to use `--group-directories-first` option on a Mac
 # - Install `coreutils` first:: `brew install coreutils` 

@@ -10,7 +10,7 @@
   "editor.insertSpaces": true,
   "editor.cursorWidth": 10,
   "editor.bracketPairColorization.enabled": true,
-  "editor.guides.bracketPairs":"active",
+  "editor.guides.bracketPairs": "active",
   "editor.cursorBlinking": "solid",
   "editor.detectIndentation": false,
   "editor.renderWhitespace": "all",
@@ -47,22 +47,24 @@
   "terminal.external.osxExec": "iterm.app",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   },
-  "eslint.validate": ["javascript"],
+  "eslint.validate": ["javascript", "typescript", "typescriptreact"],
   "eslint.alwaysShowStatus": true,
   "beautify.config": "",
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.linkedEditings": true, 
+  "editor.linkedEditings": true,
   "liveServer.settings.donotVerifyTags": true,
   "diffEditor.ignoreTrimWhitespace": false,
-  "auto-rename-tag.activationOnLanguage": [
-    "*"
-  ],
+  "auto-rename-tag.activationOnLanguage": ["*"],
   "typescript.updateImportsOnFileMove.enabled": "always",
   "editor.find.cursorMoveOnType": false,
   "workbench.editor.splitInGroupLayout": "vertical",
-  "workbench.editor.splitOnDragAndDrop": false
+  "workbench.editor.splitOnDragAndDrop": false,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "editor.unicodeHighlight.allowedCharacters": {}
 }

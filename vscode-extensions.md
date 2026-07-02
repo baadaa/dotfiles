@@ -6,6 +6,7 @@
 - ~~[Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify)~~ `deprecated`
 - [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
 - [change-case](https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case)
+- Claude ?
 - [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
 - [Container Tools](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-containers)
 - [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)

@@ -44,6 +44,11 @@ confetti() {
   open raycast://extensions/raycast/raycast/confetti
 }
 
+# Broadcasting keystrokes
+# - use KeyCastr
+# - install by `brew install --cask keycastr`
+# - Grant access to "Input Monitoring" in "Security & Privacy"
+
 # yt-dlp template for downloading clips as MP3 audio
 # requires yt-dlp and ffmpeg. run first:
 # brew install ffmpeg

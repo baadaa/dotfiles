@@ -72,6 +72,18 @@ alias wttr="curl https://wttr.in/\?m"
 # Midnight Commander
 # brew install midnight-commander
 
+# Markdown formatted viewer in Midnight Commander
+# 1. brew install glow  # needs glow command for viewing
+# 2. make `.mc.ext.ini` file
+#    - mkdir -p ~/.config/mc
+#    - cp "$(brew --prefix)/etc/mc/mc.ext.ini" ~/.config/mc/
+# 3. add/edit markdown section to the ini file as following
+#    [markdown]
+#    Regex=\\.(mk?d|markdown)$
+#    RegexIgnoreCase=true
+#    Open=%var{EDITOR:vi} %f
+#    View=glow -p %f
+
 # CMUS music player
 # brew install cmus
 

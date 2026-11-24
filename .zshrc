@@ -75,6 +75,9 @@ alias wttr="curl https://wttr.in/\?m"
 # CMUS music player
 # brew install cmus
 
+# Markdown Quicklook helper
+# brew install --cask qlmarkdown
+
 # This one is modified from Wes Bos
 # Uses tree - install first:
 # brew install tree
